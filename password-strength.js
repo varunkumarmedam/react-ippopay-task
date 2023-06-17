@@ -46,7 +46,4 @@ function strongPasswordChecker(password) {
   return steps;
 }
 
-console.log(strongPasswordChecker("a"))
-console.log(strongPasswordChecker("aA1"))
-console.log(strongPasswordChecker("1337C0d3"))
-console.log(strongPasswordChecker("Baaa0"))
+module.exports = strongPasswordChecker;
