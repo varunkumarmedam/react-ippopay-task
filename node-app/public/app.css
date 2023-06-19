@@ -1,0 +1,26 @@
+body {
+  background-image: url("https://cdn.wallpapersafari.com/74/86/BMcwr6.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  font-family: "Comfortaa", cursive !important;
+}
+.actions-box {
+  padding: 30px;
+  left: 10%;
+  z-index: 10;
+  background: #00000021;
+  color: white;
+  box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.75);
+  transition: all 1s;
+}
+
+.actions-box p {
+    margin-left: 8px;
+}
+.form-control {
+  height: 50px !important;
+}
