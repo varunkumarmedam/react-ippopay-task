@@ -12,11 +12,7 @@ app.use(
 );
 app.use(express.urlencoded({ extended: true }));
 
-app.set("view engine", "ejs");
-
-app.get("/", (req, res) => {
-  res.render("client");
-});
+app.use(express.static('public'));
 
 // Handling GET request and retrieve all saved records
 app.get("/all", async function (req, res) {
